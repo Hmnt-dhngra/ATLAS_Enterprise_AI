@@ -1,0 +1,38 @@
+# To create the entire backend API services
+fastapi==0.115.12 
+
+# FASTAPI server
+uvicorn[standard]==0.34.2
+
+# dependcy of fastapi
+jinja2==3.1.6
+
+# central config file
+pydantic-settings==2.8.1
+
+# manage and access AWS services
+boto3==1.37.38
+
+# PostgreSQL operations
+psycopg[binary,pool]==3.2.6
+
+# PDF documents
+pypdf==5.4.0
+
+# Word documents
+python-docx==1.1.2
+
+# Send and receive HTTP requests
+httpx==0.28.1
+
+# RAG Orchestration
+langgraph>=0.2,<2
+
+# Vector DB
+pinecone>=5,<9
+
+# Manage environment variables
+python-dotenv==1.0.1
+
+#  observability 
+glassflow-rius>=1.0,<2.0
